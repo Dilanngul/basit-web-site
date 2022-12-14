@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner{
+ height: 100vh;
+ width: 100%;
+ background: url(2.jpeg.jpg);
+ background-position: center;
+ background-size: cover;
+}
+.navbar{
+ display: flex;
+ width: 90% ;
+ margin: auto;
+ padding: 32px 0;
+ align-items: center;
+ justify-content: space-between;
+}
+.logo{
+ cursor: pointer;
+ border-radius: 50%;
+}
+.navbar ul li{
+ list-style-type: none;
+ display: inline-block;
+ margin: 0 25px;
+
+}
+.navbar ul li a{
+ text-decoration: none;
+ color: bisque;
+}
+ .navbar ul li a:hover{
+ box-shadow: 0 2px #c43c1b;
+transition: 0.8s;
+
+ }
+ .content{
+ width: 100%;
+ position: absolute;
+ top: 40%;
+ color: rgb(228, 219, 219);
+ text-align: center;
+
+}
+ .content h1{
+font-size: 59px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgba(#434242);
+
+ }
+ .content p{
+ margin: 20px auto;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+     
+ button{
+    width: 230px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color:rgb(228, 219, 219);
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #c43c1b;
+    font-size: 17px;
+  
+ }
+
+ button :hover{
+  color: white;
+  transition: 0.8s;
+  
+ }
+
+
+
